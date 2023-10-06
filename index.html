@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <img src="images/1132032_8728.jpg" alt="" />
+      </div>
+
+      <div class="row">
+        <div></div>
+        <div class="">1</div>
+        <div class="">2</div>
+        <div class="">3</div>
+        <div class="">4</div>
+        <div class="">5</div>
+        <div class="">6</div>
+        <div class="">7</div>
+      </div>
+      <!-- 1. sıra -->
+      <div class="chairRow">
+        <div>A</div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- 2. sıra -->
+      <div class="chairRow">
+        <div>B</div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- 3. sıra -->
+      <div class="chairRow">
+        <div>C</div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- 4. sıra -->
+      <div class="chairRow">
+        <div>D</div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+      </div>
+      <!-- 5. sıra -->
+      <div class="chairRow">
+        <div>E</div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+      </div>
+    </div>
+    <!-- film seçici -->
+    <div class="movie-list">
+      <select id="movie">
+        <option disabled>Film Seçiniz</option>
+        <option value="100">Film-1</option>
+        <option value="200">Film-2</option>
+        <option value="300">Film-3</option>
+      </select>
+      <button class="btn-reserv">Rezerve Yap</button>
+    </div>
+
+    <!-- koltuk bilgi -->
+    <ul>
+      <li>
+        <div class="chair reserved"><i class="fa-solid fa-chair"></i></div>
+        <span>Rezerve</span>
+      </li>
+      <li>
+        <div class="chair selected"><i class="fa-solid fa-chair"></i></div>
+        <span>Seçili Koltuk</span>
+      </li>
+      <li>
+        <div class="chair"><i class="fa-solid fa-chair"></i></div>
+        <span>Boş Koltuk</span>
+      </li>
+    </ul>
+
+    <!-- tutar bilgisi -->
+    <p class="info-text">
+      Seçilen Koltuk sayısı: <span id="count"></span> <br />
+      Toplam Ücreti: <span id="amount">0</span>
+    </p>
+    <!-- js -->
+    <script src="main.js"></script>
+  </body>
+</html>
