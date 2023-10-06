@@ -13,4 +13,6 @@
 
 ![scree](screen.gif)
 
-#readme düzenlendi
+# Canlı site örneği. sistem güncellenmeye devam edecektir
+
+https://sinema-reserv.vercel.app/
